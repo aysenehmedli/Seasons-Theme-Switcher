@@ -1,4 +1,3 @@
-//?Bir normal header hazirlayin uzerində logo, Home, About, Contact və.s kimi linklər, body-ə istədiyinizi yaza bilərsiz və bir button, Klik edəndə fərqli bir bir popup açılsın, icində thema seçimləri olsun, məsələn qarlı tema ( hər yer mavi tonlarda, yazılar və.s göy, ya da bahar theması, hər yer yaşıl buttonlar və.s çəhrayı və.s) yazmaqda classlist sizə kömək edəcək.
 let a = document.querySelectorAll("a")
 a.forEach(elem => {
     elem.classList.add("color-blue")
